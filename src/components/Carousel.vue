@@ -90,7 +90,7 @@ const carousel = ref(null);
 
 const displays = [
   {
-    image: "public/assets/images/ab.jpg",
+    image: "/assets/images/ab.jpg",
     title: "Pilot",
     description:
       "Rick takes Morty on a journey to another dimension to find seeds for his research.",
@@ -100,7 +100,7 @@ const displays = [
     rating: "8.5/10",
   },
   {
-    image: "public/assets/images/cd.jpg",
+    image: "/assets/images/cd.jpg",
     title: "Lawnmower Dog",
     description:
       "Rick and Morty enter the dream of Morty's math teacher to influence his behavior.",
@@ -110,7 +110,7 @@ const displays = [
     rating: "8.6/10",
   },
   {
-    image: "public/assets/images/ef.jpg",
+    image: "/assets/images/ef.jpg",
     title: "Meeseeks and Destroy",
     description:
       "Rick provides the family with a solution to their problems through Mr. Meeseeks, a creature who fulfills requests.",
@@ -120,7 +120,7 @@ const displays = [
     rating: "8.9/10",
   },
   {
-    image: "public/assets/images/gh.jpg",
+    image: "/assets/images/gh.jpg",
     title: "Rick Potion No. 9",
     description:
       "Rick gives Morty a potion to make Jessica fall in love with him, but it goes wrong.",
@@ -130,7 +130,7 @@ const displays = [
     rating: "9.0/10",
   },
   {
-    image: "public/assets/images/ij.jpg",
+    image: "/assets/images/ij.jpg",
     title: "Total Rickall",
     description:
       "The family battles a parasite that implants fake memories into their minds.",
@@ -140,7 +140,7 @@ const displays = [
     rating: "9.2/10",
   },
   {
-    image: "public/assets/images/kl.jpg",
+    image: "/assets/images/kl.jpg",
     title: "The Ricks Must Be Crazy",
     description:
       "Rick and Morty travel inside Rick's car's battery, where they discover a microverse.",
@@ -150,7 +150,7 @@ const displays = [
     rating: "9.0/10",
   },
   {
-    image: "public/assets/images/mn.jpg",
+    image: "/assets/images/mn.jpg",
     title: "Pickle Rick",
     description:
       "Rick turns himself into a pickle to avoid family therapy but ends up on an unexpected adventure.",
@@ -160,7 +160,7 @@ const displays = [
     rating: "9.3/10",
   },
   {
-    image: "public/assets/images/op.jpg",
+    image: "/assets/images/op.jpg",
     title: "The Ricklantis Mixup",
     description:
       "While Rick and Morty visit Atlantis, the Citadel of Ricks undergoes major changes.",

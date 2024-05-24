@@ -1,14 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-
-
-library.add(faFacebookF, faTwitter, faInstagram, faYoutube);
-
+ 
 import { ApolloClient, InMemoryCache } from "@apollo/client/core";
 import { createRouter, createWebHistory } from 'vue-router'
 import { DefaultApolloClient } from '@vue/apollo-composable'
@@ -36,5 +29,4 @@ export const apolloClient = new ApolloClient({
 createApp(App)
   .use(router)
   .provide(DefaultApolloClient, apolloClient)
-  .component('font-awesome-icon', FontAwesomeIcon)
   .mount('#app')
