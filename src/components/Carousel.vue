@@ -8,17 +8,17 @@
       ref="carousel"
     >
       <Slide v-for="(display, index) in displays" :key="index">
-        <div class="carousel-item flex-shrink-0 w-full">
+        <div class="carousel-item flex-shrink-0 w-full mr-6 ml-6">
           <div class="aspect-w-1 aspect-h-1">
             <img
               :src="display.image"
               alt="display image"
-              class="w-full h-auto object-cover"
+              class="w-full h-auto object-cover rounded-xl mt-12"
               :style="{ width: imgWidth + 'px', height: imgHeight + 'px' }"
             />
           </div>
           <div class="mt-4 bg-sky-950 p-4 rounded-lg shadow-md w-full">
-            <h2 class="text-xl font-bold mb-2 italic text-white">
+            <h2 class="text-xl font-bold mb-2 italic text-yellow-500">
               {{ display.title }}
             </h2>
             <p class="text-gray-300 mb-2">
@@ -171,8 +171,8 @@ const displays = [
   },
 ];
 
-const imgWidth = 300;
-const imgHeight = 300;
+const imgWidth = 250;
+const imgHeight = 250;
 
 const next = () => {
   carousel.value.next();

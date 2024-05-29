@@ -8,22 +8,30 @@
             <img
               :src="character.image"
               :alt="character.name"
-              class="rounded-full mr-4w-full h-auto object-cover rounded-t-lg"
+              class="rounded-3xl w-52 mr-6 h-auto object-cover mt-12"
             />
             <div>
-              <h2 class="text-2xl font-bold text-gray-400">{{ character.name }}</h2>
+              <h2 class="text-2xl font-bold text-gray-400">
+                {{ character.name }}
+              </h2>
               <p class="text-lg text-gray-300">
                 {{ character.status }} - {{ character.species }}
               </p>
               <p class="text-lg text-gray-300">{{ character.gender }}</p>
               <div class="border-t border-gray-300 mt-4 pt-4">
-                <h3 class="text-xl font-bold mb-2 text-gray-400">Last Known Location</h3>
-                <p class="text-lg text-gray-300">{{ character.location.name }}</p>
+                <h3 class="text-xl font-bold mb-2 text-white">
+                  Last Known Location
+                </h3>
+                <p class="text-lg text-gray-300">
+                  {{ character.location.name }}
+                </p>
               </div>
             </div>
           </div>
           <div class="border-t border-gray-300 mt-4 pt-4">
-            <h3 class="text-xl font-bold mb-2 text-gray-400">Episodes:</h3>
+            <h3 class="text-xl font-bold mb-2 text-white">
+              Episodes That This Character Participated In:
+            </h3>
             <ul
               class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-6"
             >
@@ -32,8 +40,10 @@
                 :key="index"
                 class="mb-2"
               >
-                <div class="bg-sky-950 border border-gray-200 rounded-lg p-4">
-                  <p class="text-lg font-semibold text-white italic">{{ episode.name }}</p>
+                <div class="bg-sky-950 border border-gray-500 rounded-lg p-4">
+                  <p class="text-lg font-semibold text-white italic">
+                    {{ episode.name }}
+                  </p>
                   <p class="text-gray-300">
                     {{ episode.air_date }} - {{ episode.episode }}
                   </p>

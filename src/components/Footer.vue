@@ -14,7 +14,7 @@
           <ul class="text-gray-400">
             <li>Email: info@rickandmortymoviehub.com</li>
             <li>Phone: (123) 456-7890</li>
-            <li>Address: 123 Multiverse Street, Dimension C-137</li>
+            <li>Address: here is our address</li>
           </ul>
         </div>
   

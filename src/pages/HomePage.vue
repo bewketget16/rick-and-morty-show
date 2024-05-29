@@ -3,7 +3,7 @@
     <Header />
     <Carousel />
     <Character />
-   <Episode />
+    <Episode />
     <Location />
     <Footer />
   </div>
